@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, 
+button {
+    font-family: 'Song Myung', serif;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer{
+    background-color: #995f5f;
+}
+
+header h1 {
+    font-family: 'Song Myung', serif;
+    font-weight:  normal;
+    color: #fff
+}
+
+header a {
+    color: #fff;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #a0bdd4;
+}
+
+section {
+    padding: 15px 0;
+}
+
+section h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+.container h1,
+.container h2 {
+    margin-bottom: 10px;
+}
+
+#sobre .container {
+    display: flex;
+    
+}
+
+#sobre .container img {
+    width: 700px;
+    margin-right: 20px;
+}
+
+#sobre p {
+    margin-top: 10%;
+}
+
+#sobre p:last-child {
+    margin-top: 15px;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;   
+}
+
+.lista-produtos img {
+    height: 200px;
+    margin: 15px 0;
+}
+
+.lista-produtos p {
+    font-size: 18px;
+    text-align: center;
+    background-color: #5c78ad;
+    padding: 5px 0;
+}
+
+.lista-produtos p:last-child {
+    font-size: 25px;
+    color: #FFC50E;
+}
+
+.lista-produtos article {
+    width: 30%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.lista-produtos .produto {
+    border: 1px solid #5c78ad;
+    border-radius: 5px;
+    height: 333px;
+}
+
+.lista-produtos button{ 
+    width: 100px;
+    padding: 12px 0;
+    margin-top: 35px;
+    border: 1px solid #995F5F;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #995F5F;
+}
+
+.lista-produtos button:hover { 
+    cursor: pointer;
+    border: 1px solid #9e2a2a;
+    background-color: #9e2a2a;
+}
+
+#contate-nos form input,
+#contate-nos form button,
+#contate-nos form textarea{
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#contate-nos form h2 {
+    text-align: center;
+}
+
+#contate-nos form button {
+    background-color: #5c78ad;
+    border: 1px solid #5c78ad;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#contate-nos form button:hover {
+    cursor: pointer;
+    border: 1px solid #1b428a;
+    background-color: #1b428a;
+}
+
+#contate-nos form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.links-sociais img {
+    height: 40px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.links-sociais li{
+    display: inline;
+    text-decoration: none;
+}
+
+.links-sociais li a{
+    text-decoration: none;
+}
+
+.metodos-contato {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    text-align: center;
+    padding: 5px 0;
+}
+
+footer p:last-child {
+    font-size: 14px;
+}
